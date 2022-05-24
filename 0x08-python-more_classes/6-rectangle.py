@@ -6,12 +6,17 @@ Define Rectangle class
 
 class Rectangle:
     """Rectangle"""
-    number_of_instances = 0 
+    number_of_instances = 0
+    # Se incializa aca y no en el init porque es un atributo de toda la clase
+
     def __init__(self, width=0, height=0):
         """Initialization"""
         self.height = height
         self.width = width
         Rectangle.number_of_instances += 1
+        """
+        """
+
     @property
     def height(self):
         """
@@ -66,7 +71,8 @@ class Rectangle:
             return (self.__width * 2) + (self.__height * 2)
 
     def __str__(self):
-        """ """
+        """
+        """
         string = ""
         if self.width == 0 or self.height == 0:
             return string
@@ -77,7 +83,8 @@ class Rectangle:
         return string[:-1]
 
     def __repr__(self):
-        """return a string representation of the rectangle     """
+        """
+        """
         return f"Rectangle({self.width:d}, {self.height:d})"
 
     def __del__(self):

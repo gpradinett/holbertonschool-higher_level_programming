@@ -1,0 +1,30 @@
+=============================
+Using ``matrix_divided``
+=============================
+
+Import the function:
+	>>> say_my_name = __import__('3-say_my_name').say_my_name
+
+Basic cases on success:
+
+Name and last name:
+
+    >>> say_my_name("El", "Fara")
+    My name is El Fara
+
+First name only input:
+    >>> say_my_name("Bob")
+    My name is Bob 
+
+Non string input:
+    >>> say_my_name(3, 3)
+    Traceback (most recent call last):
+    ...
+    TypeError: first_name must be a string
+
+Non string input without last_name:
+    >>> say_my_name(3)
+    Traceback (most recent call last):
+    ...
+    TypeError: first_name must be a string
+

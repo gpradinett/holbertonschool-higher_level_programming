@@ -9,22 +9,39 @@ Basic cases on success:
 
 Name and last name:
 
-    >>> say_my_name("El", "Fara")
-    My name is El Fara
+	>>> say_my_name(None)
+	Traceback (most recent call last):
+	TypeError: first_name must be a string
 
-First name only input:
-    >>> say_my_name("Bob")
-    My name is Bob 
+	>>> say_my_name()
+	Traceback (most recent call last):
+	TypeError: say_my_name() missing 1 required positional argument: 'first_name'
 
-Non string input:
-    >>> say_my_name(3, 3)
-    Traceback (most recent call last):
-    ...
-    TypeError: first_name must be a string
+	>>> say_my_name(int("Paolo"), "Abarca")
+	Traceback (most recent call last):
+	ValueError: invalid literal for int() with base 10: 'Paolo'
 
-Non string input without last_name:
-    >>> say_my_name(3)
-    Traceback (most recent call last):
-    ...
-    TypeError: first_name must be a string
+	>>> say_my_name(str(123), str(456))
+	My name is 123 456
 
+	>>> say_my_name('', '')
+	My name is  
+
+	>>> say_my_name("Gerardo", int(1))
+	Traceback (most recent call last):
+        TypeError: last_name must be a string
+
+	>>> say_my_name("Gerardo","Marin", "Parra")
+	Traceback (most recent call last):
+        TypeError: say_my_name() takes from 1 to 2 positional arguments but 3 were given
+
+	>>> say_my_name(list("Gerardo"),list("Marin"))
+	Traceback (most recent call last):
+        TypeError: first_name must be a string
+
+	>>> say_my_name("Gerardo", float(2.5))
+	Traceback (most recent call last):
+        TypeError: last_name must be a string
+
+	>>> say_my_name(chr(ord('A')), chr(ord('Z')))
+	My name is A Z

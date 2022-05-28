@@ -20,7 +20,7 @@ def matrix_divided(matrix, div):
     for lists in matrix:
         if type(lists) is not list:
             raise TypeError(ErrorMessage)
-        if len(lists) != len(matrix[0]):
+        if len(lists) != len(matrix[1]):
             raise TypeError("Each row of the matrix must have the same size")
         new_list = []
         for position in lists:

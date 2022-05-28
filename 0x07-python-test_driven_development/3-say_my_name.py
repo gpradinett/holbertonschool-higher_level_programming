@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 """
-
+Python function that prints my name is first name and last name
 """
 
 
 def say_my_name(first_name, last_name=""):
     """
-
+    Print string: first name and last name
     """
 
     if type(first_name) is not str:

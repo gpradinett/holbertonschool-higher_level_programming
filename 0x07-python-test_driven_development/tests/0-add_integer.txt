@@ -14,21 +14,61 @@ Basic cases on success:
 	>>> add_integer(2, 2)
 	4
 
-	>>> add_integer(1, 9.3)
-    	10
+	>>> add_integer(-1, 2)
+	1
 
-	>>> add_integer(3, -1)
-    	2
+	>>> add_integer(20001, -1)
+	20000
 
-Double negative float input:
+	>>> add_integer(-10.6, -1)
+	-11
 
-    	>>> add_integer(-2, -1)
-    	-3
+Testing default argument b = 98:
 
-Double float:
+	>>> add_integer(2)
+	100
+	
+Testing default argument 'b' with 'a' as a string:
 
-    	>>> add_integer(10.0, 2.0)
-    	12
+	>>> add_integer("hola")
+	Traceback (most recent call last):
+	...
+        TypeError: a must be an integer
+
+	>>> add_integer("")
+	Traceback (most recent call last):
+	...
+        TypeError: a must be an integer
+
+None case (nothing is pass as argument):
+
+	Not passing anything:
+
+	>>> add_integer(None)
+	Traceback (most recent call last):
+	...
+	TypeError: a must be an integer
+
+	Passing 'a' and 'b' as None:
+
+	>>> add_integer(None, None)
+	Traceback (most recent call last):
+        ...
+        TypeError: a must be an integer
+
+	Passing 'a' as None:
+
+        >>> add_integer(None, 5)
+        Traceback (most recent call last):
+        ...
+        TypeError: a must be an integer
+
+	Passing 'b' as None:
+
+	>>> add_integer(5, None)
+	Traceback (most recent call last):
+        ...
+        TypeError: b must be an integer
 
 Passing agruments that are not of type int, like: lists, set, tuples, bool and dictionary:
 
@@ -67,42 +107,21 @@ Passing agruments that are not of type int, like: lists, set, tuples, bool and d
         ...
         TypeError: a must be an integer
 
-None case (nothing is pass as argument):
+Test extra arguments:
+	
+	One extra argument (function receives only 2 arguments not 3):
 
-	Not passing anything:
+	>>> add_integer(5, 4, 3)
+	Traceback (most recent call last):
+        ...
+        TypeError: add_integer() takes from 1 to 2 positional arguments but 3 were given
 
-	>>> add_integer(None)
+	Two extra arguments:
+
+	>>> add_integer(1, 2, 3, 4)
 	Traceback (most recent call last):
 	...
-	TypeError: a must be an integer
-
-	Passing 'a' and 'b' as None:
-
-	>>> add_integer(None, None)
-	Traceback (most recent call last):
-        ...
-        TypeError: a must be an integer
-
-	Passing 'a' as None:
-
-        >>> add_integer(None, 5)
-        Traceback (most recent call last):
-        ...
-        TypeError: a must be an integer
-
-	Passing 'b' as None:
-
-	>>> add_integer(5, None)
-	Traceback (most recent call last):
-        ...
-        TypeError: b must be an integer
-
-Testing spaces arguments (syntax error):
-
-	>>> add_integer( , )
-	Traceback (most recent call last):
-	...	
-	SyntaxError: invalid syntax
+	TypeError: add_integer() takes from 1 to 2 positional arguments but 4 were given
 
 Testing no arguments:
 
@@ -111,8 +130,25 @@ Testing no arguments:
 	...
 	TypeError: add_integer() missing 1 required positional argument: 'a'
 
-Double string input:
- 	>>> add_integer("holberton", "school")
+Maximum and minimum numbers for python ("inf" represents infinity):
+
+	Maxmimum number:
+
+	>>> add_integer(float("inf"), 2)
+     	Traceback (most recent call last):
+     	...
+     	OverflowError: cannot convert float infinity to integer
+
+	Minimum number:
+
+	>>> add_integer(float("-inf"), -2)
+     	Traceback (most recent call last):
+     	...
+     	OverflowError: cannot convert float infinity to integer
+
+Testing spaces arguments (syntax error):
+
+	>>> add_integer( , )
 	Traceback (most recent call last):
-    	...
-    	TypeError: a must be an integer
+	...	
+	SyntaxError: invalid syntax

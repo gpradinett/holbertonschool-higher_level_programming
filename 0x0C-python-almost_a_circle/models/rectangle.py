@@ -133,8 +133,8 @@ class Rectangle(Base):
             - y attribute
         This type of argument is called a “no-keyword argument” -
         Argument order is super important.
-        """
-        if args and args is not None:
+
+        if args is not None and len(args) != 0:
             if len(args) >= 1:
                 if type(args[0]) != int and args[0] is not None:
                     raise TypeError("id must be an integer")
@@ -159,5 +159,17 @@ class Rectangle(Base):
                     self.heigth = value
                 if key == "x":
                     self.x = value
-                if key == "y":
+                if key == "y":correcting return
                     self.y = value
+        """
+        attrs = ["id", "width", "height", "x", "y"]
+
+        if args and args is not None:
+            for position, arg in enumerate(args):
+                if position > (len(attrs) - 1):
+                    break
+                else:
+                    setattr(self, attrs[position], arg)
+        else:
+            for key, value in kwargs.items():
+                setattr(self, key, value)

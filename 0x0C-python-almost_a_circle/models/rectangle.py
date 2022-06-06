@@ -118,8 +118,9 @@ class Rectangle(Base):
         imprimir la class Square se imprima con el nombre de su clase: Square
         y no con Rectangle.
         """
-        s = "[Rectangle]({}) {}/{} - {}/{}".format(
-                self.id, self.__x, self.__y, self.__width, self.__height)
+        s = "[{}] ({}) {}/{} - {}/{}".format(
+            self.__class__.__name__, self.id, self.__x, self.__y,
+            self.__width, self.__height)
         return s
 
     def update(self, *args, **kwargs):

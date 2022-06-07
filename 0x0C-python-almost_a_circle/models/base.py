@@ -19,6 +19,7 @@ class Base:
         This class will be the “base” of all other classes in this project.
         The goal of it is to manage id attribute in all your future classes and
         to avoid duplicating the same code (by extension, same bugs)"""
+
         if id is not None:
             self.id = id
         else:
@@ -50,7 +51,10 @@ class Base:
     @classmethod
     def save_to_file(cls, list_objs):
         """
-
+        Writes the JSON string representation of
+        list_objs to a file.
+        Args:
+            - list_objs: list of instances who inherits of Base
         """
         if list_objs is None or list_objs == []:
             jstr = "[]"
@@ -59,3 +63,34 @@ class Base:
             filename = cls.__name__ + ".json"
         with open(filename, 'w') as f:
             f.write(jstr)
+
+    @staticmethod
+    def from_json_string(json_string):
+        """
+        Returns the list of the JSON string representation json_string.
+        Args:
+            - json_string: string to convert to list
+        """
+        if json_string is None or len(json_string) == 0:
+            return []
+
+        else:
+            list_json = json.loads(json_string)
+            return list_json
+
+    @classmethod
+    def create(cls, **dictionary):
+        """
+        This is a class method that returns an instance (object) with all
+        attributes already set.
+        Inside "**dictionary" are the keys and values to set to the new
+        instance.
+        We are going to use the method "update" that was created in the other
+        classes (Rectangle and Square).
+        """
+        if cls.__name__ == 'Rectangle':
+            dummy = cls(1, 1)
+        elif cls.__name__ == 'Square':
+            dummy = cls(1)
+        dummy.update(**dictionary)
+        return dummy

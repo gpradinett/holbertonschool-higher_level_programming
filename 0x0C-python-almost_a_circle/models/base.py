@@ -55,14 +55,6 @@ class Base:
         list_objs to a file.
         Args:
             - list_objs: list of instances who inherits of Base
-
-        if list_objs is None or list_objs == []:
-            jstr = "[]"
-        else:
-            jstr = cls.to_json_string([o.to_dictionary() for o in list_objs])
-            filename = cls.__name__ + ".json"
-        with open(filename, 'w') as f:
-            f.write(jstr)
         """
         filename = cls.__name__ + ".json"
         string = []
@@ -106,3 +98,24 @@ class Base:
             dummy = cls(1)
         dummy.update(**dictionary)
         return dummy
+
+    @classmethod
+    def load_from_file(cls):
+        """
+        class method def load_from_file(cls):
+        which returns a
+        list of instances
+        """
+        list_ = []
+        filename = cls.__name__ + ".json"
+        if os.path.exists(filename):
+            with open(filename, "r") as f:
+                dictionary = cls.from_json_string(f.read())
+
+            for i in dictionary:
+                list_.append(cls.create(**i))
+
+            return list_
+
+        else:
+            return list_

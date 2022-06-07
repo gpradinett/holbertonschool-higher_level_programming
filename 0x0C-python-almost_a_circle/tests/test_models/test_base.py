@@ -6,6 +6,7 @@ and the number of the test for that task
 (i.e 'test_17_0' for the first test of task 17)
 """
 
+import json
 import unittest
 import os
 from models.base import Base

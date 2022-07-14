@@ -1,17 +1,21 @@
 # SQL - Introduction
+_For this project, we expect you to look at this concept:_
+[Databases](https://github.com/gpradinett/holbertonschool-higher_level_programming/blob/main/0x0D-SQL_introduction/Databases.md)
+
+
 ![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/272/rtcwz.jpg)
 
 ## Resources
 
-- What is Database & SQL?
-- A Basic MySQL Tutorial
-- Basic SQL statements: DDL and DML (no need to read the chapter “Privileges”)
-- Basic queries: SQL and RA
-- SQL technique: functions
-- SQL technique: subqueries
-- What makes the big difference between a backtick and an apostrophe?
-- MySQL Cheat Sheet
-- MySQL 8.0 SQL Statement Syntax
+- [What is Database & SQL?](https://www.youtube.com/watch?v=FR4QIeZaPeM&ab_channel=Guru99)
+- [A Basic MySQL Tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04)
+- [Basic SQL statements: DDL and DML](https://web.csulb.edu/colleges/coe/cecs/dbdesign/dbdesign.php?page=sql/queries.php) (no need to read the chapter “Privileges”)
+- [Basic queries: SQL and RA](https://web.csulb.edu/colleges/coe/cecs/dbdesign/dbdesign.php?page=sql/queries.php)
+- [SQL technique: functions](https://web.csulb.edu/colleges/coe/cecs/dbdesign/dbdesign.php?page=sql/functions.php)
+- [SQL technique: subqueries](https://web.csulb.edu/colleges/coe/cecs/dbdesign/dbdesign.php?page=sql/subqueries.php)
+- [What makes the big difference between a backtick and an apostrophe?](https://stackoverflow.com/questions/29402361/what-makes-the-big-difference-between-a-backtick-and-an-apostrophe/29402458)
+- [MySQL Cheat Sheet](https://intellipaat.com/mediaFiles/2019/02/SQL-Commands-Cheat-Sheet.pdf)
+- [MySQL 8.0 SQL Statement Syntax](https://dev.mysql.com/doc/refman/8.0/en/sql-statements.html)
 
 ## General
 
@@ -20,16 +24,28 @@
 - What does SQL stand for
 - What’s MySQL
 - How to create a database in MySQL
-- What does DDL and DML stand for
-- How to CREATE or ALTER a table
-- How to SELECT data from a table
-- How to INSERT, UPDATE or DELETE data
-- What are subqueries
+- What does `DDL` and `DML` stand for
+- How to `CREATE` or `ALTER` a table
+- How to `SELECT` data from a table
+- How to `INSERT`, `UPDATE` or `DELETE` data
+- What are `subqueries`
 - How to use MySQL functions
+
+## Requirements
+
+- Allowed editors: vi, vim, emacs
+- All your files will be executed on Ubuntu 20.04 LTS using MySQL 8.0 (version 8.0.25)
+- All your files should end with a new line
+- All your SQL queries should have a comment just before (i.e. syntax above)
+- All your files should start by a comment describing the task
+- All SQL keywords should be in uppercase (SELECT, WHERE…)
+- A README.md file, at the root of the folder of the project, is mandatory
+- The length of your files will be tested using wc
 
 # More Info
 
 Comments for your SQL file:
+
 ```
 gpradinett$ cat my_script.sql
 -- 3 first students in the Batch ID=3
@@ -38,7 +54,7 @@ SELECT id, name FROM students WHERE batch_id = 3 ORDER BY created_at DESC LIMIT 
 gpradinett$
 ```
 
-Install MySQL 8.0 on Ubuntu 20.04 LTS
+_Install MySQL 8.0 on Ubuntu 20.04 LTS_
 ```
 gpradinett$ sudo apt update
 gpradinett$ sudo apt install mysql-server
@@ -47,7 +63,7 @@ $ mysql --version
 mysql  Ver 8.0.25-0ubuntu0.20.04.1 for Linux on x86_64 ((Ubuntu))
 gpradinett$
 ```
-Connect to your MySQL server:
+_Connect to your MySQL server:_
 ```
 gpradinett$ sudo mysql
 Welcome to the MySQL monitor.  Commands end with ; or \g.

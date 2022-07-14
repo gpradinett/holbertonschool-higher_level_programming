@@ -104,4 +104,27 @@ gpradinett$
 ```
 In the container, credentials are `root/root`
 
+# HELP
+
+yes when using `sudo service mysql start` in Ubuntu20,04 it gives us this error: 
+```
+gpradinett@LB-HP-LT:~/Projects/FMS$ sudo service mysql start
+ * Starting MySQL database server mysqld
+su: warning: cannot change directory to /nonexistent: No such file or directory
+```
+we can use these command
+```
+sudo systemctl stop mysql.service
+sudo usermod -d /var/lib/mysql/ mysql
+sudo systemctl start mysql.service
+```
+or
+```
+sudo service mysql stop
+sudo usermod -d /var/lib/mysql/ mysql
+sudo service mysql start
+```
+_more info:_
+[MySQL won't start - error: su: warning: cannot change directory to /nonexistent: No such file or directory]()
+
 

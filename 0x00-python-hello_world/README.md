@@ -1,7 +1,7 @@
 <h1 align="center">🐍Python - Hello World🐍</h1>
 <h4 align="center">🫧I hope that my works are of interest to you🫧. </h4>
 
-[Python programming]()
+[Python programming](https://github.com/gpradinett/holbertonschool-higher_level_programming/blob/main/0x00-python-hello_world/MoreInfo.md)
 
 ![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/231/48a9fdbd67c84a328a9df9ec8d93b9ac2458ac37721d7d53e51a27fb2bdc5263.jpg)
 <h1 align="center">🐍Author’s disclaimer🐍</h1>

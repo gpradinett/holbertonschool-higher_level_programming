@@ -117,7 +117,7 @@ Interpreter: python3 (version 3.8.5)
 Description of each file:_
 
 ## Tasks
-<h2 align="center"> ------ </h2>
+<h2 align="center"> ---❤️--- </h2>
 <h2 align="center" >🌻<em>Run Python file</em>🌻</h2>
 
 🦖 [0. Run Python file](https://github.com/gpradinett/holbertonschool-higher_level_programming/blob/main/0x00-python-hello_world/0-run)
@@ -135,7 +135,13 @@ gpradinett@ubuntu:~/py/0x00$ ./0-run
 Best School
 gpradinett@ubuntu:~/py/0x00$ 
 ```
-<h2 align="center"> ------ </h2>
+Repo:
+
+- GitHub repository: `holbertonschool-higher_level_programming`
+- Directory: `0x00-python-hello_world`
+- File: [0-run](https://github.com/gpradinett/holbertonschool-higher_level_programming/blob/main/0x00-python-hello_world/0-run)
+
+<h2 align="center"> ---❤️--- </h2>
 <h2 align="center">🌻<em>Run inline</em>🌻</h2>
 
 🦖 [1. Run inline](https://github.com/gpradinett/holbertonschool-higher_level_programming/blob/main/0x00-python-hello_world/1-run_inline)
@@ -149,7 +155,13 @@ gpradinett@ubuntu:~/py/0x00$ ./1-run_inline
 Best School: 98
 gpradinett@ubuntu:~/py/0x00$ 
 ```
-<h2 align="center"> ------ </h2>
+Repo:
+
+- GitHub repository: `holbertonschool-higher_level_programming`
+- Directory: `0x00-python-hello_world`
+- File: [1-run_inline](https://github.com/gpradinett/holbertonschool-higher_level_programming/blob/main/0x00-python-hello_world/1-run_inline)
+
+<h2 align="center"> ---❤️--- </h2>
 <h2 align="center">🌻<em>Hello, print</em>🌻</h2>
 
 🦖 [2. Hello, print](https://github.com/gpradinett/holbertonschool-higher_level_programming/blob/main/0x00-python-hello_world/2-print.py)
@@ -162,7 +174,13 @@ gpradinett@ubuntu:~/py/0x00$ ./2-print.py
 "Programming is like building a multilingual puzzle
 gpradinett@ubuntu:~/py/0x00$
 ```
-<h2 align="center"> ------ </h2>
+Repo:
+
+- GitHub repository: `holbertonschool-higher_level_programming`
+- Directory: `0x00-python-hello_world`
+- File: [2-print.py](https://github.com/gpradinett/holbertonschool-higher_level_programming/blob/main/0x00-python-hello_world/2-print.py)
+
+<h2 align="center"> ---❤️--- </h2>
 <h2 align="center">🌻<em>Print integer</em>🌻</h2>
 
 🦖 [3. Print integer](https://github.com/gpradinett/holbertonschool-higher_level_programming/blob/main/0x00-python-hello_world/3-print_number.py)
@@ -181,10 +199,17 @@ gpradinett@ubuntu:~/py/0x00$ ./3-print_number.py
 98 Battery street
 gpradinett@ubuntu:~/py/0x00$ 
 ```
-<h2 align="center"> ------ </h2>
+
+Repo:
+
+- GitHub repository: `holbertonschool-higher_level_programming`
+- Directory: `0x00-python-hello_world`
+- File: [3-print_number.py](https://github.com/gpradinett/holbertonschool-higher_level_programming/blob/main/0x00-python-hello_world/3-print_number.py)
+
+<h2 align="center"> ---❤️--- </h2>
 <h2 align="center">🌻<em>Print float</em>🌻</h2>
 
-🦖 [4. Print float](https://github.com/gpradinett/holbertonschool-higher_level_programming/blob/main/0x00-python-hello_world/3-print_number.py)
+🦖 [4. Print float](https://github.com/gpradinett/holbertonschool-higher_level_programming/blob/main/0x00-python-hello_world/4-print_float.py)
 
 Complete the source code in order to print the float stored in the variable `number` with a precision of 2 digits.
 
@@ -199,7 +224,13 @@ gpradinett@ubuntu:~/py/0x00$ ./4-print_float.py
 Float: 3.14
 gpradinett@ubuntu:~/py/0x00$ 
 ```
-<h2 align="center"> ------ </h2>
+Repo:
+
+- GitHub repository: `holbertonschool-higher_level_programming`
+- Directory: `0x00-python-hello_world`
+- File: [4-print_float.py](https://github.com/gpradinett/holbertonschool-higher_level_programming/blob/main/0x00-python-hello_world/4-print_float.py)
+
+<h2 align="center"> ---❤️--- </h2>
 <h2 align="center">🌻<em>Print string</em>🌻</h2>
 
 🦖 [5. Print string](https://github.com/gpradinett/holbertonschool-higher_level_programming/blob/main/0x00-python-hello_world/5-print_string.py)
@@ -220,7 +251,13 @@ Holberton SchoolHolberton SchoolHolberton School
 Holberton
 gpradinett@ubuntu:~/py/0x00$ 
 ```
-<h2 align="center"> ------ </h2>
+Repo:
+
+- GitHub repository: `holbertonschool-higher_level_programming`
+- Directory: `0x00-python-hello_world`
+- File: [5-print_string.py](https://github.com/gpradinett/holbertonschool-higher_level_programming/blob/main/0x00-python-hello_world/5-print_string.py)
+
+<h2 align="center"> ---❤️--- </h2>
 <h2 align="center">🌻<em>Play with strings</em>🌻</h2>
 
 🦖 [6. Play with strings](https://github.com/gpradinett/holbertonschool-higher_level_programming/blob/main/0x00-python-hello_world/6-concat.py)
@@ -239,7 +276,13 @@ gpradinett@ubuntu:~/py/0x00$ wc -l 6-concat.py
 gpradinett@ubuntu:~/py/0x00$ 
 ```
 
-<h2 align="center"> ------ </h2>
+Repo:
+
+- GitHub repository: `holbertonschool-higher_level_programming`
+- Directory: `0x00-python-hello_world`
+- File: [6-concat.py](https://github.com/gpradinett/holbertonschool-higher_level_programming/blob/main/0x00-python-hello_world/6-concat.py)
+
+<h2 align="center"> ---❤️--- </h2>
 <h2 align="center">🌻<em>Copy - Cut - Paste</em>🌻</h2>
 
 🦖 [7. Copy - Cut - Paste](https://github.com/gpradinett/holbertonschool-higher_level_programming/blob/main/0x00-python-hello_world/7-edges.py)
@@ -262,7 +305,13 @@ gpradinett@ubuntu:~/py/0x00$ wc -l 7-edges.py
 gpradinett@ubuntu:~/py/0x00$
 ```
 
-<h2 align="center"> ------ </h2>
+Repo:
+
+- GitHub repository: `holbertonschool-higher_level_programming`
+- Directory: `0x00-python-hello_world`
+- File: [7-edges.py](https://github.com/gpradinett/holbertonschool-higher_level_programming/blob/main/0x00-python-hello_world/7-edges.py)
+
+<h2 align="center"> ---❤️--- </h2>
 <h2 align="center">🌻<em>Create a new sentence</em>🌻</h2>
 
 🦖 [8. Create a new sentence](https://github.com/gpradinett/holbertonschool-higher_level_programming/blob/main/0x00-python-hello_world/8-concat_edges.py)
@@ -282,8 +331,13 @@ gpradinett@ubuntu:~/py/0x00$ wc -l 8-concat_edges.py
 5 8-concat_edges.py
 gpradinett@ubuntu:~/py/0x00$
 ```
+Repo:
 
-<h2 align="center"> ------ </h2>
+- GitHub repository: `holbertonschool-higher_level_programming`
+- Directory: `0x00-python-hello_world`
+- File: [8-concat_edges.py](https://github.com/gpradinett/holbertonschool-higher_level_programming/blob/main/0x00-python-hello_world/8-concat_edges.py)
+
+<h2 align="center"> ---❤️--- </h2>
 <h2 align="center">🌻<em>Easter Egg</em>🌻</h2>
 
 🦖 [9. Easter Egg](https://github.com/gpradinett/holbertonschool-higher_level_programming/blob/main/0x00-python-hello_world/9-easter_egg.py)
@@ -317,7 +371,13 @@ Namespaces are one honking great idea -- let's do more of those!
 gpradinett@ubuntu:~/py/0x00$
 ```
 
-<h2 align="center"> ------ </h2>
+Repo:
+
+- GitHub `repository: holbertonschool-higher_level_programming`
+- Directory: `0x00-python-hello_world`
+- File: [9-easter_egg.py](https://github.com/gpradinett/holbertonschool-higher_level_programming/blob/main/0x00-python-hello_world/9-easter_egg.py)
+
+<h2 align="center"> ---❤️--- </h2>
 <h2 align="center">🌻<em>Linked list cycle</em>🌻</h2>
 
 🦖 [10. Linked list cycle](https://github.com/gpradinett/holbertonschool-higher_level_programming/blob/main/0x00-python-hello_world/10-check_cycle.c)
@@ -507,7 +567,13 @@ gpradinett@ubuntu:~/0x00$
 ```
 <sub>_Solving a problem is already a big win! but finding the best and optimal way to solve it, it’s way better! Think about the most optimal / fastest way to do it._
 
-<h2 align="center"> ------ </h2>
+Repo:
+
+- GitHub repository: `holbertonschool-higher_level_programming`
+- Directory: `0x00-python-hello_world`
+- File: [10-check_cycle.c, lists.h](https://github.com/gpradinett/holbertonschool-higher_level_programming/blob/main/0x00-python-hello_world/10-check_cycle.c)
+
+<h2 align="center"> ---❤️--- </h2>
 <h2 align="center">🌻<em>Hello, write</em>🌻</h2>
 
 🦖 [11. Hello, write](https://github.com/gpradinett/holbertonschool-higher_level_programming/blob/main/0x00-python-hello_world/100-write.py)
@@ -528,7 +594,13 @@ gpradinett@ubuntu:~/py/0x00$ cat q
 and that piece of art is useful - Dora Korpar, 2015-10-19
 gpradinett@ubuntu:~/py/0x00$
 ```
-<h2 align="center"> ------ </h2>
+Repo:
+
+- GitHub repository: `holbertonschool-higher_level_programming`
+- Directory: `0x00-python-hello_world`
+- File: [100-write.py](https://github.com/gpradinett/holbertonschool-higher_level_programming/blob/main/0x00-python-hello_world/100-write.py)
+
+<h2 align="center"> ---❤️--- </h2>
 <h2 align="center">🌻<em>Compile</em>🌻</h2>
 
 🦖 [12. Compile](https://github.com/gpradinett/holbertonschool-higher_level_programming/blob/main/0x00-python-hello_world/101-compile)
@@ -562,8 +634,13 @@ gpradinett@ubuntu:~/py/0x00$ od -t x1 main.pyc # SYSTEM DEPENDANT => CAN BE DIFF
 0000172
 gpradinett@ubuntu:~/py/0x00$ 
 ```
+Repo:
 
-<h2 align="center"> ------ </h2>
+- GitHub repository: `holbertonschool-higher_level_programming`
+- Directory: `0x00-python-hello_world`
+- File: [101-compile](https://github.com/gpradinett/holbertonschool-higher_level_programming/blob/main/0x00-python-hello_world/101-compile)
+
+<h2 align="center"> ---❤️--- </h2>
 <h2 align="center">🌻<em>ByteCode -> Python #1</em>🌻</h2>
 
 🦖 [13. ByteCode -> Python #1](https://github.com/gpradinett/holbertonschool-higher_level_programming/blob/main/0x00-python-hello_world/102-magic_calculation.py)
@@ -578,7 +655,13 @@ gpradinett@ubuntu:~/py/0x00$
 ```
 - Tip: [Python bytecode](https://docs.python.org/3.4/library/dis.html)
 
-<h2 align="center"> ------ </h2>
+Repo:
+
+- GitHub repository: `holbertonschool-higher_level_programming`
+- Directory: `0x00-python-hello_world`
+- File: [102-magic_calculation.py](https://github.com/gpradinett/holbertonschool-higher_level_programming/blob/main/0x00-python-hello_world/102-magic_calculation.py)
+
+<h2 align="center"> ---❤️--- </h2>
 
 
 

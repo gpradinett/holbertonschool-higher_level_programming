@@ -18,11 +18,13 @@ if __name__ == "__main__":
 
     Base.metadata.create_all(engine)
 
-    session = Session(engine)
-    states = session.query(State).filter(State.name == argv[4]).first()
-
-    if states is not None:
-        print(states.id)
-
-    else:
+    Session = sessionmaker(bind=engine)
+    flag = 1
+    conn = Session()
+    for state in conn.query(State).order_by(State.id).all():
+        if sys.argv[4] == state.name:
+            flag = 0
+            print("{}".format(state.id))
+    if flag == 1:
         print("Not found")
+    conn.close()

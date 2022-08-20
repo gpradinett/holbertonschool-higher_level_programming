@@ -13,8 +13,8 @@ if __name__ == "__main__":
 
     url = urllib.request.Request(argv[1])
     try:
-        with urllib.request.urlopen(url) as response:
-            print(response.read().decode("UTF-8"))
-
-    except urllib.error.HTTPError as e:
-        print("Error code: {}".format(e.code))
+        with request.urlopen(url) as html:
+            html = html.read()
+            print("{}".format(html.decode('utf-8')))
+    except error.URLError as err:
+        print("Error code: {}".format(err.code))

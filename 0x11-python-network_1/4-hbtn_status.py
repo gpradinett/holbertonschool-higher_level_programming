@@ -1,9 +1,11 @@
 #!/usr/bin/python3
 # Python script fetches https://intranet.hbtn.io/status
-from requests import get
+# https://www.geeksforgeeks.org/python-requests-tutorial/
 
 if __name__ == "__main__":
-    url = "https://intranet.hbtn.io/status"
-    response = get(url).text
-    print("Body response:\n\t- type: {}\n\t- content: {}"
-          .format(type(response), response))
+    import requests
+
+    req = requests.get('https://intranet.hbtn.io/status')
+    print("Body response:")
+    print("\t- type:", type(req.text))
+    print("\t- content:", req.text)

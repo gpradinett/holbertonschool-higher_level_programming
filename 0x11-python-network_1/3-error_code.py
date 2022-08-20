@@ -8,9 +8,8 @@ of the response
 """
 
 if __name__ == "__main__":
-    import sys
     import urllib.request
-    from urllib.error import URLError
+    from sys import argv
 
     url = sys.argv[1]
     try:

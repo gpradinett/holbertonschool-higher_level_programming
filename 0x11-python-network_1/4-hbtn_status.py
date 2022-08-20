@@ -1,6 +1,8 @@
 #!/usr/bin/python3
-# Python script fetches https://intranet.hbtn.io/status
-# https://www.geeksforgeeks.org/python-requests-tutorial/
+"""
+Python script fetches https://intranet.hbtn.io/status
+https://www.geeksforgeeks.org/python-requests-tutorial/
+"""
 
 if __name__ == "__main__":
     import requests

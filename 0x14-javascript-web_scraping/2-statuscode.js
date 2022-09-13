@@ -20,7 +20,7 @@ axios.get(URL)
     // handle success
     console.log('code: ' + resp.status);
   })
-  .catch(function (error) {
+  .catch(function (err) {
     // handle error - to access the status of the error, it is through the response (response)
     console.log('code: ' + err.response.status);
   });

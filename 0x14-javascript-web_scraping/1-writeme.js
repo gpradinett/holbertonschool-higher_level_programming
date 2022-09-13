@@ -16,9 +16,8 @@ const path = args[2];
 const texto = args[3];
 const fs = require('fs'); // load fs class
 
-fs.writeFile(path, texto, 'utf-8', (err, content) => {
+fs.writeFile(path, texto, 'utf-8', (err) => {
   if (err) {
-    return console.log(err);
+    console.log(err);
   }
-  console.log(content);
 });

@@ -9,7 +9,7 @@ Info write a file: https://nodejs.dev/en/learn/writing-files-with-nodejs/
 */
 
 // Include process module
-const process = require('process');
+const process = require('process'); // add the process module to use the "argv" function.
 const args = process.argv; // I define args as process.argv
 
 const path = args[2]; // file where the content will be written

@@ -22,15 +22,13 @@ axios.get(URL)
     // handle success
     const data = response.data;
     fs.writeFile(filepath, data, (error) => {
-      if (!error) {
-        console.log(`Error: ${error}`);
-      } else {
+      if (error) {
         console.log(`Error: ${error}`);
       }
     });
     // console.log(response.data);
+  })
+  .catch(function (error) {
+  // handle error - to access the status of the error, it is through the response (response)
+    console.log(`code: ${error.response.status}`);
   });
-// .catch(function (error) {
-// handle error - to access the status of the error, it is through the response (response)
-// console.log(`code: ${error.response.status}`);
-// });

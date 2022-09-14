@@ -18,9 +18,10 @@ const URL = args[2];
 axios.get(URL)
   .then(function (response) {
     // handle success
-    console.log('code: ' + resp.status);
+    console.log(`code: ${response.status}`);
   })
-  .catch(function (err) {
+  .catch(function (error) {
     // handle error - to access the status of the error, it is through the response (response)
-    console.log('code: ' + err.response.status);
+    console.log(`code: ${error.response.status}`);
+
   });

@@ -23,5 +23,4 @@ axios.get(URL)
   .catch(function (error) {
     // handle error - to access the status of the error, it is through the response (response)
     console.log(`code: ${error.response.status}`);
-
   });

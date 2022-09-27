@@ -331,7 +331,7 @@ Write a function that checks for lowercase character.
 - Returns `False` otherwise
 - You are not allowed to import any module
 - You are not allowed to use `str.upper()` and `str.isupper()`
-- [`Tips: ord()`]()
+- [`Tips: ord()`](https://docs.python.org/3.4/library/functions.html?highlight=ord#ord)
 
 You don’t need to understand `__import__`
 
@@ -376,7 +376,7 @@ Write a function that prints a string in uppercase followed by a new line.
 - You can only use one loop in your code
 - You are not allowed to import any module
 - You are not allowed to use `str.upper()` and `str.isupper()`
-- [`Tips: ord()`]()
+- [`Tips: ord()`](https://docs.python.org/3.4/library/functions.html?highlight=ord#ord)
 
 You don’t need to understand `__import__`
 
@@ -857,10 +857,28 @@ Write the Python function `def magic_calculation(a, b, c):` that does exactly th
              46 BINARY_SUBTRACT
              47 RETURN_VALUE
 ```
-[tips - ByteCode]()
+[tips - ByteCode](https://docs.python.org/3.4/library/dis.html)
 
 Repo:
 
 - GitHub repository: `holbertonschool-higher_level_programming`
 - Directory: `0x01-python-if_else_loops_functions`
 - File: [102-magic_calculation.py](https://github.com/gpradinett/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/101-remove_char_at.py)
+
+
+
+<h2 align="center"> ---❤️--- </h2>
+
+
+
+<sub>_You can contact me_ 📩
+
+[Fernando J. Gonzales Pradinett](https://github.com/gpradinett)
+
+<p align="left">
+<a href="https://twitter.com/gpradinett" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="gpradinett" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/gpradinett" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="gpradinett" height="30" width="40" /></a>
+<a href="https://instagram.com/gpradinett" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="gpradinett" height="30" width="40" /></a>
+<a href="https://medium.com/@gpradinett" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@gpradinett" height="30" width="40" /></a>
+<a href="https://discord.gg/gpradinett" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="gpradinett" height="30" width="40" /></a>
+</p>
